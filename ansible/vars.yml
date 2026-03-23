@@ -1,0 +1,3 @@
+docker_image: "tawa123/cicd-app"
+app_port: 5000
+container_name: "flask-app"

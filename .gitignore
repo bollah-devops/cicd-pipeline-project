@@ -1,0 +1,20 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
+
+# Docker
+*.tar
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Ansible
+*.retry
+
+# Mac
+.DS_Store
