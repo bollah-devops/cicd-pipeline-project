@@ -16,8 +16,8 @@ pipeline {
         stage('Run tests') {
             steps {
                 sh '''
-                    pip install -r app/requirements.txt
-                    cd app && python -m pytest tests/ -v
+                    python3 -m pip install -r app/requirements.txt
+                    cd app && python3 -m pytest tests/ -v
                 '''
             }
         }
