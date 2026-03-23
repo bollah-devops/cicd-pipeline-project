@@ -4,6 +4,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = "tawa123/cicd-app"
         DOCKER_TAG   = "latest"
+        PATH         = "/usr/local/bin:/opt/homebrew/bin:${env.PATH}"
     }
 
     stages {
